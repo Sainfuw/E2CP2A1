@@ -4,22 +4,23 @@
 	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
 </head>
 <body>
 	<div class="header">
 		<div class="navbar">
+			<img class="logo" src="images/latam_logo.png">
 			<ul class="menu">
-				<li class="izquierda"><img class="logo" src="images/latam_logo.png"></li>
-				<li class="derecha"><a href="#">Equipo</a></li>
-				<li class="derecha"><a href="#">Blog</a></li>
-				<li class="derecha"><a href="#">Contacto</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Equipo</a></li>
 			</ul>
 		</div>
 		<div class="texto">
-			<h1 class="clearfix">COMIENDA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
-			<button class="boton">Comienza acá!</button>
-			<button class="boton bggreen">Más Info</button>
-			<p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
+			<h1 class="clearfix">COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
+			<button class="default_button button_blue">Comienza acá!</button>
+			<button class="default_button button_green">Más Info</button>
+			<p class="letrasheader">Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
 		</div>
 	</div>
 	<div class="content texto">
@@ -30,35 +31,43 @@
 		consequat.</p>
 		<img class="presentacion" src="images/viewing-gallery-for-happy-people.png">
 	</div>
+	<div class="linea"></div>
 	<div class="content2">
-		<h3>SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.</p>
-		<button class="boton">Inscribete!</button>
-		<h5>Vive la esperiencia Desafio Latam.</h5>
+		<div class="texto">
+			<h3>SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<button class="default_button button_blue">Inscribete!</button>
+			<h5>Vive la esperiencia Desafio Latam!</h5>
+		</div>
 	</div>
+	<div class="linea"></div>
 	<div class="content3">
-		<div class="content3left">
-			<h4>Contacto</h4>
-			<p>
-				<b>Desafio Latam</b><br>
-				Ezequias Allende 2361 <br>
-				P: +56 9 5117 7975 <br> <br>
-				inscripciones@desafiolatam.com	
-			</p>
-		</div>
-		<div class="content3right">
-			<p>
-				<b>Suscribete</b> <br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing.
-				<button class="boton_personalizado">Enviar</button>
-			</p>
+		<div class="texto">
+			<div class="content3align">
+				<h4>Contacto</h4>
+				<p>
+					<b>Desafio Latam</b><br>
+					Ezequias Allende 2361 <br>
+					P: +56 9 5117 7975 <br> <br>
+					<a class="correo" href="#">inscripciones@desafiolatam.com</a>
+				</p>
+			</div>
+			<div class="content3align">
+				<h4>Suscribete</h4>
+				<p>						
+					Lorem ipsum dolor sit amet, consectetur adipisicing.						
+				</p>
+				<input type="text" id="email" name="email" placeholder="Ingresa tu email..">
+				<button class="default_button button_submit">Enviar</button>
+			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<p>DESAFIOLATAM 2016 - CURSO FULLSTACK G13</p>
+	<div class="footer clearfix">
+		<p class="pie">DESAFIOLATAM 2016 - CURSO FULLSTACK G13</p>
 	</div>
+	<div class="botomline"></div>
 </body>
 </html>
